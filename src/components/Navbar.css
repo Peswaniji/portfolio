@@ -1,0 +1,38 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333; /* Dark navbar */
+}
+
+.navbar .left {
+    flex: 1;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .middle {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navbar .right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.navbar .github-btn {
+    padding: 10px 20px;
+    background-color: #ff75c7;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
